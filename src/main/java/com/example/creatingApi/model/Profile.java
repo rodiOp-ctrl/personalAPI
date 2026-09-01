@@ -1,10 +1,10 @@
 package com.example.creatingApi.model;
 import java.util.List;
 
-public record profile(
+public record Profile(
         String name,
         String oneLiner,
         String bio,
         List<String> skills,
-        List<dailyTask> routine
+        List<DailyTask> routine
 ) { }

@@ -1,6 +1,6 @@
 package com.example.creatingApi.model;
 
-public record dailyTask (
+public record DailyTask(
         String time,
         String activity,
         String categories
